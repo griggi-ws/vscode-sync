@@ -1,0 +1,48 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "yaml.schemas": {
+        "file:///Users/gavin.riggi/.vscode/extensions/atlassian.atlascode-3.0.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.bitbucket.enabled": false,
+    "redhat.telemetry.enabled": false,
+    "atlascode.jira.jqlList": [
+        {
+            "id": "c374f981-83b9-47b8-a9a0-29b943ebbc4a",
+            "enabled": true,
+            "name": "My jira.wellspring.com Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "jira.wellspring.com",
+            "monitor": true
+        }
+    ],
+    "git.autofetch": true,
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "jira.wellspring.com",
+        "projectKey": "AT"
+    },
+    "[markdown]": {
+
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "gitlens.autolinks": [
+        {
+            "prefix": "SYS-",
+            "url": "https://jira.wellspring.com/browse/SYS-<num>"
+        },
+        {
+            "prefix": "WOIU-",
+            "url": "https://jira.wellspring.com/browse/WOIU-<num>",
+            "ignoreCase": false
+        },
+        {
+            "prefix": "CAB-",
+            "url": "https://jira.wellspring.com/browse/CAB-<num>"
+        }
+    ],
+    "editor.tabSize": 2,
+    "sync.autoDownload": false,
+    "sync.gist": "1681a858ee1a50a68718ea80f5653b90"
+}
