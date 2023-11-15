@@ -1,7 +1,6 @@
 {
-    "workbench.colorTheme": "Default Dark+",
     "yaml.schemas": {
-        "file:///Users/gavin.riggi/.vscode/extensions/atlassian.atlascode-3.0.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+        "file:///Users/gavin.riggi/.vscode/extensions/atlassian.atlascode-3.0.7/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "atlascode.bitbucket.enabled": false,
     "redhat.telemetry.enabled": false,
@@ -44,5 +43,8 @@
     ],
     "editor.tabSize": 2,
     "sync.autoDownload": false,
-    "sync.gist": "1681a858ee1a50a68718ea80f5653b90"
+    "sync.gist": "1681a858ee1a50a68718ea80f5653b90",
+    "[ruby]": {
+        "editor.semanticHighlighting.enabled": true
+    }
 }

@@ -1,13 +1,25 @@
-disabled: []
+disabled:
+  - id: sorbet.sorbet-vscode-extension
+    uuid: 67d58bf5-9c4f-495f-bee0-d1d3f5898a8b
 enabled:
+  - id: aaron-bond.better-comments
+    uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
   - id: adamerose.markdown-wysiwyg
     uuid: 5a0f2655-5be8-42c5-b684-045434234d37
+  - id: amazonwebservices.aws-toolkit-vscode
+    uuid: ac5787df-9b2d-441c-abf0-977d62bc66f0
   - id: atlassian.atlascode
     uuid: ede0d8fe-2180-4cf5-85f5-075dc43d4b8f
+  - id: christian-kohler.path-intellisense
+    uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
   - id: DavidAnson.vscode-markdownlint
     uuid: daf8b44d-8aae-4da2-80c5-1f770219f643
   - id: eamodio.gitlens
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
+  - id: GitHub.github-vscode-theme
+    uuid: 7328a705-91fc-49e6-8293-da6f112e482d
+  - id: github.vscode-github-actions
+    uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
   - id: GitHub.vscode-pull-request-github
     uuid: 69ddd764-339a-4ecc-97c1-9c4ece58e36d
   - id: golang.go
@@ -16,6 +28,8 @@ enabled:
     uuid: 4a23294b-fd16-4c51-9759-da9936474cf8
   - id: johnpapa.vscode-peacock
     uuid: 5a7017bf-c571-4d77-b902-6e56b16f539a
+  - id: KoichiSasada.vscode-rdbg
+    uuid: 24c6dcf1-6c66-4c4e-be43-d48d0d9c5a41
   - id: ms-python.isort
     uuid: 4ad0ce32-ff3f-49f0-83b5-93e5dc00cfff
   - id: ms-python.python
@@ -32,14 +46,18 @@ enabled:
     uuid: ab4fb32a-befb-4102-adf9-1652d0cd6a5e
   - id: ms-toolsai.vscode-jupyter-slideshow
     uuid: e153ca70-b543-4865-b4c5-b31d34185948
+  - id: oderwat.indent-rainbow
+    uuid: eaa2127d-cb69-4ab9-8505-a60c9ee5f28b
   - id: puppet.puppet-vscode
     uuid: 6888a303-8912-4fe1-8e83-56b76ffdaf42
   - id: redhat.vscode-xml
     uuid: 6703768d-d42f-474e-9f6e-5f288d53f6e8
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
-  - id: Shan.code-settings-sync
-    uuid: e337c67b-55c2-4fef-8949-eb260e7fb7fd
+  - id: Shopify.ruby-extensions-pack
+    uuid: 430af273-c0cc-4565-a417-6ee1991bbf4c
+  - id: Shopify.ruby-lsp
+    uuid: ef656a13-3703-477b-9f36-672a0c949b96
   - id: yzhang.markdown-all-in-one
     uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: zokugun.cron-tasks
